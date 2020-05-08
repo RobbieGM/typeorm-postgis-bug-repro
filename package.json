@@ -4,7 +4,7 @@
   "description": "Bug reproduction for TypeORM's PostGIS TypeError",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/main.ts"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,6 @@
   "dependencies": {
     "@types/geojson": "^7946.0.7",
     "@types/node": "^13.13.5",
-    "class-transformer": "^0.2.3",
-    "class-validator": "^0.12.2",
     "dotenv": "^8.2.0",
     "geojson": "^0.5.0",
     "pg": "^8.0.3",
